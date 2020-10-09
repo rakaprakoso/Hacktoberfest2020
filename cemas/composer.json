@@ -1,0 +1,25 @@
+{
+    "name": "rakadprakoso/cemas",
+    "description": "Content Management System to avoid cemas",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rdprakoso16",
+            "email": "rakaprakoso2@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "rakadprakoso\\cemas\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "rakadprakoso\\cemas\\CemasServiceProvider"
+            ]
+        }
+    }
+}
